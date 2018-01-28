@@ -35,7 +35,7 @@ Often sensational and factually incorrect news is created and spread through soc
 
 - [x] Database Enabled.
 - [x] E-mail verification.
-- [x] SQL Injection.
+- [x] Bot Protection using captcha.
 - [x] Register / Login Support
 - [x] Dynamic Database
 
