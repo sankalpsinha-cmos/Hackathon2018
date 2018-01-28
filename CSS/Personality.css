@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+*
+{
+    text-decoration: none;
+   font-family: 'Noto Sans', sans-serif;
+
+  
+}
+
+.navbar
+{
+    
+    background: rgba(7, 19, 49, 0.747);
+}
+
+body {
+
+    background: linear-gradient(135deg,#141414f3 10%, #3b3b3b 60%);
+    font-family: Noto Serif;
+    overflow-x: hidden;
+    
+}
+a:visited {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+.profile-cont
+{
+    color: #fff;
+    background: linear-gradient(135deg,rgb(0, 108, 134) 20%,rgba(172, 11, 0, 0.74) 60%);
+}
+.table-heading
+{
+    vertical-align: middle;
+    
+  
+    background: rgba(0, 50, 97, 0.301);
+    
+}
+.text-center
+{
+    text-align: center;
+    line-height: 100%;
+    color: #fff;    
+}
+
+.rating
+{
+   margin-top: 8%;
+   font-size: 150%;
+  
+   
+}
+.references
+{
+    margin-top: 7%;
+   font-size: 150%;
+
+}
+.url-img
+{
+    height: 50px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.918);
+}
+.progeress-bar{
+    border-radius:100%;
+}
+
+li{
+    color: #fff;
+}
+

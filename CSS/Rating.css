@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+*
+{
+    text-decoration: none;
+   font-family: 'Noto Sans', sans-serif;
+  
+}
+.navbar
+{
+    
+    background: rgba(7, 19, 49, 0.747);
+}
+
+body {
+
+    background: linear-gradient(135deg,#141414f3 10%, #3b3b3b 60%);
+    font-family: Noto Serif;
+    overflow-x: hidden;
+    
+}
+a:visited {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+.profile-cont
+{
+    color: #fff;
+    background: linear-gradient(135deg,rgb(0, 108, 134) 20%,rgba(172, 11, 0, 0.74) 60%);
+}
+.table-heading
+{
+    vertical-align: middle;
+    
+  
+    background: rgba(0, 50, 97, 0.301);
+    
+}
+.text-center
+{
+    text-align: center;
+    line-height: 100%;
+    color: #fff;    
+}
+
+.rating
+{
+   margin-top: 8%;
+   font-size: 150%;
+  
+   
+}
+.references
+{
+    margin-top: 7%;
+   font-size: 150%;
+
+}
+.url-img
+{
+    height: 50px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.918);
+}
+.progeress-bar{
+    border-radius:100%;
+}
+
+li{
+    color: #fff;
+}
+
+
+.container {
+    display: block;
+    position: relative;
+   
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    
+}
+
+.container:hover input ~ .checkmark {
+    background-color: rgb(4, 192, 36);
+}
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.thumbs
+{
+    padding: 0;
+    margin: 0;
+  
+}
+
+input placeholder 
+{
+    color: #000;
+}
+

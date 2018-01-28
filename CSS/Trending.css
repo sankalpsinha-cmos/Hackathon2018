@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+*
+{
+    text-decoration: none;
+   font-family: 'Noto Sans', sans-serif;
+  
+}
+.navbar
+{
+    
+    background: rgba(7, 19, 49, 0.747);
+
+}
+
+body {
+
+    background: linear-gradient(135deg,#141414f3 10%, #3b3b3b 60%);
+    font-family: Noto Serif;
+    overflow-x: hidden;
+  
+    
+}
+
+.head-bar
+{
+    padding-top: 50px;
+    margin-top:20px;
+    padding-bottom:20px;
+
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+.profile-cont
+{
+    color: #fff;
+
+    background: linear-gradient(135deg,rgb(0, 122, 116) 20%,rgba(0, 175, 15, 0.801) 60%);
+}
+.table-heading
+{
+    vertical-align: middle;
+    
+  
+    background: rgba(0, 50, 97, 0.301);
+    
+}
+.text-center
+{
+    text-align: center;
+    line-height: 100%;
+    color: #fff;    
+}
+
+.rating
+{
+   margin-top: 8%;
+   font-size: 150%;
+  
+   
+}
+.references
+{
+    margin-top: 7%;
+   font-size: 150%;
+
+}
+.url-img
+{
+    height: 50px;
+    border-radius: 100%;
+ 
+    background: rgba(255, 255, 255, 0.918);
+}
+.head-img
+{
+    border: 7px solid rgba(0, 0, 0, 0.671);
+    width="150" height="150" style="border-radius:100%; float:right"
+}
+
+
+.progeress-bar{
+    border-radius:100%;
+}
+
+li{
+    color: #fff;
+}
+
